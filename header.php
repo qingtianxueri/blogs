@@ -18,6 +18,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
+<script type="text/javascript" src="<?php print get_stylesheet_directory_uri();?>/js/jquery.lazyload.min.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
